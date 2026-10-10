@@ -1,0 +1,16 @@
+{
+  "name": "interactive-netsim",
+  "version": "1.0.0",
+  "description": "Interactive NetSim: browser-based network simulation and visualization platform",
+  "type": "module",
+  "scripts": {
+    "test": "node --test engine/tests/*.test.js",
+    "start": "node start-dev.js",
+    "dev:server": "node server/src/server.js",
+    "dev:client": "npm --prefix client run dev",
+    "dev": "node start-dev.js"
+  },
+  "keywords": ["network-simulation", "dijkstra", "bfs", "education", "networking"],
+  "author": "Interactive NetSim Team",
+  "license": "MIT"
+}
